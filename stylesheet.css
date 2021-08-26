@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Century Gothic";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top {
+  padding: 250px 40px;
+  background-image: url("bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  text-align: center;
+}
+
+.top h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+
+.top p {
+  opacity: 0.7;
+  letter-spacing: 10px;
+  margin-bottom: 3px;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #d9d9d9;
+}
+
+.header-left {
+  float: left;
+  color: black;
+  padding: 10px 20px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  padding: 20px 20px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.middle {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  text-align: center;
+}
+
+.option li {
+  display: inline;
+}
+
+.option a {
+  line-height: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  color: black;
+  transition: all 0.5s;
+}
+
+.option a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* start img bottom */
+.bottom .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.bottom .container .box {
+  width: 340px;
+  margin: 20px;
+  border: 15px solid #fff;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+.bottom .container .box .imgBx {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.bottom .container .box .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* end img bottom */
+
+footer p {
+  color: black;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #d9d9d9;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.testing2 {
+  text-align: center;
+}
+
+.testing2 a {
+  color: black;
+}
